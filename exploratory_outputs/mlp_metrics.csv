@@ -1,0 +1,2 @@
+model,target,mae,r2,n_train,n_test,train_time_sec,inference_time_sec
+MLPRegressor,profit,13781.118861318608,0.737712779897059,525,175,2.0660730999989028,0.007395900000119582

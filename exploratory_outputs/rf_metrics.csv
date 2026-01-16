@@ -1,0 +1,2 @@
+model,target,mae,r2,n_train,n_test,train_time_sec,inference_time_sec
+RandomForestRegressor,profit,4130.995439,0.9648261629847446,525,175,1.2599561999995785,0.08948749999944994

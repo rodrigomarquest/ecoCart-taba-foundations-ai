@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+venv/
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Data (raw)
+ecoCart.csv
+data/raw/
+
+# Outputs gerados (opcional: mantenha CSVs leves se quiser)
+eda_outputs/*.png
+exploratory_outputs/*.png
+
+# Logs
+*.log

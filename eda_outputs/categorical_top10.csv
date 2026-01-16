@@ -1,0 +1,31 @@
+column,value,count
+segment,Government,300
+segment,Midmarket,100
+segment,Channel Partners,100
+segment,Enterprise,100
+segment,Small Business,100
+country,Canada,140
+country,Germany,140
+country,France,140
+country,Mexico,140
+country,United States of America,140
+product,Paseo,202
+product,Velo,109
+product,VTT,109
+product,Amarilla,94
+product,Montana,93
+product,Carretera,93
+discount_band,High,245
+discount_band,Medium,242
+discount_band,Low,160
+discount_band,<NA>,53
+month_name,October,140
+month_name,December,105
+month_name,September,70
+month_name,June,70
+month_name,November,70
+month_name,January,35
+month_name,March,35
+month_name,August,35
+month_name,July,35
+month_name,February,35

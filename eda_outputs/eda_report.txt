@@ -1,0 +1,113 @@
+EcoCart EDA Report
+==================
+
+Generated at: 2026-01-16T11:58:23
+
+Shape
+-----
+Rows: 700
+Columns: 16
+
+Columns & dtypes
+--------------
+segment                string[python]
+country                string[python]
+product                string[python]
+discount_band          string[python]
+units_sold                    float64
+manufacturing_price           float64
+sale_price                    float64
+gross_sales                   float64
+discounts                     float64
+sales                         float64
+cogs                          float64
+profit                        float64
+date                   datetime64[ns]
+month_number                    int64
+month_name             string[python]
+year                            int64
+
+Missing values (top 20)
+-----------------------
+discount_band          53
+segment                 0
+country                 0
+product                 0
+units_sold              0
+manufacturing_price     0
+sale_price              0
+gross_sales             0
+discounts               0
+sales                   0
+cogs                    0
+profit                  0
+date                    0
+month_number            0
+month_name              0
+year                    0
+
+Duplicate rows
+--------------
+0
+
+Numeric describe
+---------------
+                     count           mean            std      min         25%       50%          75%        max
+units_sold           700.0    1608.294286     867.427859   200.00    905.0000   1542.50    2229.1250     4492.5
+manufacturing_price  700.0      96.477143     108.602612     3.00      5.0000     10.00     250.0000      260.0
+sale_price           700.0     118.428571     136.775515     7.00     12.0000     20.00     300.0000      350.0
+gross_sales          700.0  182759.426429  254262.284378  1799.00  17391.7500  37980.00  279025.0000  1207500.0
+discounts            700.0   13150.354671   22962.928760     0.00    800.3200   2585.25   15956.3475   149677.5
+sales                700.0  169609.071843  236726.346899  1655.08  15928.0000  35540.20  261077.5000  1159200.0
+cogs                 700.0  145475.211429  203865.506118   918.00   7490.0000  22506.25  245607.5000   950625.0
+profit               700.0   26354.778271   41426.798657     0.00   3815.7075  11110.55   23756.3600   262200.0
+month_number         700.0       7.900000       3.377321     1.00      5.7500      9.00      10.2500       12.0
+year                 700.0    2013.750000       0.433322  2013.00   2013.7500   2014.00    2014.0000     2014.0
+
+Categorical top values (top 10 per column)
+------------------------------------------
+
+[segment]
+segment
+Government          300
+Midmarket           100
+Channel Partners    100
+Enterprise          100
+Small Business      100
+
+[country]
+country
+Canada                      140
+Germany                     140
+France                      140
+Mexico                      140
+United States of America    140
+
+[product]
+product
+Paseo        202
+Velo         109
+VTT          109
+Amarilla      94
+Montana       93
+Carretera     93
+
+[discount_band]
+discount_band
+High      245
+Medium    242
+Low       160
+<NA>       53
+
+[month_name]
+month_name
+October      140
+December     105
+September     70
+June          70
+November      70
+January       35
+March         35
+August        35
+July          35
+February      35
